@@ -1,0 +1,24 @@
+<head>
+    <link rel="stylesheet" href="styles/style.css"/>
+</head>
+<body>
+    <div class="game-board">
+        <div class="timer">
+            </div>
+            <div class="board">
+                <div class="info-container">
+                    <h2 class="pattern"></h2>
+                    <h2 class="points"></h2>
+                </div>
+        </div>
+    </div>
+
+    <div class="lose-screen">
+        <h1>You lose!</h1>
+        <h2>Your score was : <span class="points"></span></h2>
+        <a href="" onclick="nnewRound(global_patternLength, global_timerDuration, global_tokenNumber, global_tokenSpeed)">Replay?</a>
+    </div>
+</body>
+<script src="scripts/jquery-3.2.1.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+<script src="scripts/script.js"></script>
